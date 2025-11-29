@@ -1,4 +1,3 @@
-
 namespace Snap.Hutao.Remastered.API
 {
     public class Program
@@ -10,6 +9,9 @@ namespace Snap.Hutao.Remastered.API
             // Add services to the container.
 
             builder.Services.AddControllers();
+            // Register application services
+            builder.Services.AddSingleton<IConfigService, ConfigService>();
+
             // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
             builder.Services.AddOpenApi();
 
