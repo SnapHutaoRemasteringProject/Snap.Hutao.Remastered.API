@@ -1,6 +1,6 @@
 @Snap.Hutao.Remastered.API_HostAddress = http://localhost:5199
 
-GET {{Snap.Hutao.Remastered.API_HostAddress}}/weatherforecast/
+GET {{Snap.Hutao.Remastered.API_HostAddress}}/ips
 Accept: application/json
 
 ###
